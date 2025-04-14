@@ -37,7 +37,7 @@ if "library" not in st.session_state:
     st.session_state.library = load_library(FILENAME)
 
 # ---------- Sidebar Navigation ----------
-st.sidebar.markdown("Created by **Saddam Khan**")
+st.sidebar.markdown("Developed by **Saddam Khan**")
 menu = st.sidebar.radio("Navigate", [
     "Add a Book", 
     "Remove a Book", 
